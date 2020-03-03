@@ -76,7 +76,7 @@
     <element xsi:type="archimate:ApplicationService" name="Pays with money" id="dc818ab7-d441-4514-838b-0059b4d95491"/>
     <element xsi:type="archimate:ApplicationService" name="ARCARD  transfer Service" id="6ba4c957-39ed-45ed-937b-00f17f33a96e"/>
     <element xsi:type="archimate:ApplicationService" name="Allow clients to create ARCARD" id="41dbfb8e-0e76-477a-a5a1-fa15875da2b8"/>
-    <element xsi:type="archimate:ApplicationService" name="ARCAPP Account Creation Service" id="2e5071fa-8828-46bd-8749-09b721206475"/>
+    <element xsi:type="archimate:ApplicationService" name="ARCARD Account Creation Service" id="2e5071fa-8828-46bd-8749-09b721206475"/>
     <element xsi:type="archimate:ApplicationService" name="Generate Reciept" id="b248c080-7a1d-4940-8f8d-202b4a9afc86"/>
     <element xsi:type="archimate:ApplicationService" name="Partner Interaction Service" id="09b3db25-7614-427f-86b5-95447f7a47b4"/>
   </folder>

@@ -43,14 +43,14 @@
     <element xsi:type="archimate:BusinessService" id="2d0258aa-cfe2-4eb0-8a68-68967f12091a"/>
     <element xsi:type="archimate:BusinessProcess" name="Generate unique QR code" id="9e844d3a-e18c-4160-a29c-6a6c871e210c"/>
     <element xsi:type="archimate:BusinessProcess" name="Purchase" id="fa0eb4eb-f216-4781-859d-d2f496dff191"/>
-    <element xsi:type="archimate:BusinessService" name="Allow clients to create ARCARD" id="f4cafa7c-2e3c-4bf1-9818-2b402e805b05"/>
+    <element xsi:type="archimate:BusinessService" name="Create ARCARD" id="f4cafa7c-2e3c-4bf1-9818-2b402e805b05"/>
     <element xsi:type="archimate:BusinessEvent" name="Wants to put money into ARCARD" id="14a252b9-4b48-4d04-8d3e-cd3e384125e7"/>
     <element xsi:type="archimate:BusinessRole" id="833160ee-fd16-4df7-adcf-9a0b3ba442b5"/>
     <element xsi:type="archimate:BusinessRole" name="Substitute" id="f4336c83-3a11-4aec-94e4-91670977f8a8"/>
     <element xsi:type="archimate:BusinessRole" name="Analyze/Track sales" id="272d2b96-2d45-42a9-9c32-d3509c163e2d"/>
     <element xsi:type="archimate:BusinessRole" name="Keep Inventory" id="dbd69e41-c717-4731-9d5a-5b9187a9a4e4"/>
     <element xsi:type="archimate:Product" name="Product" id="1caaec49-8b2e-4ccf-a0b5-36e32da8059f"/>
-    <element xsi:type="archimate:BusinessService" name="Allow clients to debit/credit ARCARD" id="bcf32380-7c6d-413e-a131-f373f36fda2c"/>
+    <element xsi:type="archimate:BusinessService" name="Debit/credit ARCARD" id="bcf32380-7c6d-413e-a131-f373f36fda2c"/>
     <element xsi:type="archimate:BusinessProcess" name="Business Process" id="ab444452-324f-462b-b68f-4d75fc8eab89"/>
     <element xsi:type="archimate:BusinessService" name="Business Service" id="854da620-491b-40d6-ae1e-26388442a66d"/>
     <element xsi:type="archimate:BusinessInterface" name="Banking Interface" id="2fee86cb-91ec-43f2-b520-fc3cbfc01a03"/>
@@ -74,7 +74,7 @@
     <element xsi:type="archimate:ApplicationProcess" name="Register user" id="315dfc99-2431-4866-a03c-4ede179c122d"/>
     <element xsi:type="archimate:ApplicationProcess" name="Generate Unique QR code" id="f9468b88-1e29-4a69-a075-87662614d807"/>
     <element xsi:type="archimate:ApplicationService" name="Pays with money" id="dc818ab7-d441-4514-838b-0059b4d95491"/>
-    <element xsi:type="archimate:ApplicationService" name="ARCARD Service" id="6ba4c957-39ed-45ed-937b-00f17f33a96e"/>
+    <element xsi:type="archimate:ApplicationService" name="ARCARD  transfer Service" id="6ba4c957-39ed-45ed-937b-00f17f33a96e"/>
     <element xsi:type="archimate:ApplicationService" name="Allow clients to create ARCARD" id="41dbfb8e-0e76-477a-a5a1-fa15875da2b8"/>
     <element xsi:type="archimate:ApplicationService" name="ARCAPP Account Creation Service" id="2e5071fa-8828-46bd-8749-09b721206475"/>
     <element xsi:type="archimate:ApplicationService" name="Generate Reciept" id="b248c080-7a1d-4940-8f8d-202b4a9afc86"/>
@@ -182,7 +182,7 @@
         <bounds x="925" y="144" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="c41daf42-27f6-400d-966e-100707dc4bfb" targetConnections="fade8012-1443-4c55-82d4-84455d005633 19a36e65-eecf-43f6-8c37-5316d10568eb 331363cb-91c6-4e09-93ba-b5a462d7a890" archimateElement="bcf32380-7c6d-413e-a131-f373f36fda2c">
-        <bounds x="612" y="136" width="120" height="71"/>
+        <bounds x="612" y="145" width="120" height="53"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="22d2a2db-40cb-45d3-b323-ee6ed3e075aa" targetConnections="46531bb3-8d14-42b2-b6aa-bf8f66b83a51" archimateElement="5b455301-b2f4-4b2d-a798-ae48fd9cb9c8">
         <bounds x="240" y="468" width="120" height="55"/>
